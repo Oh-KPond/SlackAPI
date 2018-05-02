@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage
+    body:
+      encoding: UTF-8
+      string: token=<SLACK_TOKEN>&channel=CAGCPB64A&text=test%20message&username=The%20Unicorn%20Bot&icon_url=http%3A%2F%2Fwww.sitetrail.com%2Fwp-content%2Fuploads%2F2017%2F04%2Funicorn.png
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 02 May 2018 17:18:30 GMT
+      Server:
+      - Apache
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Referrer-Policy:
+      - no-referrer
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      X-Oauth-Scopes:
+      - read,client,identify,post,apps
+      Vary:
+      - Accept-Encoding
+      Pragma:
+      - no-cache
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Xss-Protection:
+      - '0'
+      X-Slack-Req-Id:
+      - eab04d7b-7cd9-4dd9-ac5b-bd8859b73f3a
+      X-Slack-Backend:
+      - h
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Via:
+      - haproxy-www-0swu
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 bfed147b9db2f9e0776c1d171ff57d14.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - rqjNaxF0qQC_b3Ythqil1l0lUsK7IywmQITng2FYh8439nZIxkLanQ==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"CAGCPB64A","ts":"1525281510.000206","message":{"text":"test
+        message","username":"The Unicorn Bot","icons":{"image_48":"https:\/\/slack-files2.s3-us-west-2.amazonaws.com\/bot_icons\/2018-04-30\/355860141828_48.png"},"bot_id":"BAG1UEE8J","type":"message","subtype":"bot_message","ts":"1525281510.000206"}}'
+    http_version: 
+  recorded_at: Wed, 02 May 2018 17:18:30 GMT
+recorded_with: VCR 4.0.0
