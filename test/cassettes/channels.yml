@@ -21,7 +21,7 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 02 May 2018 17:18:30 GMT
+      - Wed, 02 May 2018 18:02:36 GMT
       Server:
       - Apache
       Expires:
@@ -45,23 +45,23 @@ http_interactions:
       X-Xss-Protection:
       - '0'
       X-Slack-Req-Id:
-      - eab04d7b-7cd9-4dd9-ac5b-bd8859b73f3a
+      - 11a85b93-bd74-410f-9fb6-a5aff5927430
       X-Slack-Backend:
       - h
       Access-Control-Allow-Origin:
       - "*"
       X-Via:
-      - haproxy-www-0swu
+      - haproxy-www-ml9i
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 bfed147b9db2f9e0776c1d171ff57d14.cloudfront.net (CloudFront)
+      - 1.1 3a9dca02f1ba6ecd49fee9a3ca7fcb81.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - rqjNaxF0qQC_b3Ythqil1l0lUsK7IywmQITng2FYh8439nZIxkLanQ==
+      - SSzTG3H8ef3vS7rRYQp5DE-gaBU4kzs0UVKf8eGFCXtzxLgGzDAHEA==
     body:
       encoding: UTF-8
-      string: '{"ok":true,"channel":"CAGCPB64A","ts":"1525281510.000206","message":{"text":"test
-        message","username":"The Unicorn Bot","icons":{"image_48":"https:\/\/slack-files2.s3-us-west-2.amazonaws.com\/bot_icons\/2018-04-30\/355860141828_48.png"},"bot_id":"BAG1UEE8J","type":"message","subtype":"bot_message","ts":"1525281510.000206"}}'
+      string: '{"ok":true,"channel":"CAGCPB64A","ts":"1525284156.000153","message":{"text":"test
+        message","username":"The Unicorn Bot","icons":{"image_48":"https:\/\/slack-files2.s3-us-west-2.amazonaws.com\/bot_icons\/2018-04-30\/355860141828_48.png"},"bot_id":"BAG1UEE8J","type":"message","subtype":"bot_message","ts":"1525284156.000153"}}'
     http_version: 
-  recorded_at: Wed, 02 May 2018 17:18:30 GMT
+  recorded_at: Wed, 02 May 2018 18:02:36 GMT
 recorded_with: VCR 4.0.0
