@@ -4,6 +4,5 @@ class Channel
   def initialize(name, id, options = {})
     @name = name
     @id =id
-
   end
 end

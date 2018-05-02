@@ -5,9 +5,6 @@
       <% @channels.each do |channel| %>
         <li>
           <%= link_to channel.name, chat_new_path(channel.id) %>
-          <ul>
-            <li>Topic: <%= channel["topic"]["value"] %></li>
-          </ul>
         </li>
       <% end %>
     </ul>
